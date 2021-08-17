@@ -1,0 +1,36 @@
+Final:
+>>>>>>>>>>
+1) Final is a keyword and access modifier which is used to apply restrictions on a class,method or variable.
+
+2) Final keyword is used with the classes,methods and variables.
+
+   a) Final variable:> Once declared,final variable becomes constant and can't be modified.
+   b) Final method:>   Final method can't be overridden by sub classs.
+   c) Final class:>    Final class can't be inherited.
+
+3) Final method is executed only when we call it.
+.........................................................................................................................
+
+Finally:
+>>>>>>>>>>
+1) Finally is the block in java Exception handling to execute the important code whether the exception occurs or not.
+
+2) Finally block is always related to the try and catch block in exception handling.
+
+   a) Finally block runs the important code even if exception occurs or not.
+   b) It cleans up all the resources used in try block.
+
+3) Finally block is executed as soon as the try-catch block is executed.
+   It's execution is not dependant on the exception.
+...........................................................................................................................
+
+Finalize:
+>>>>>>>>>>>
+1) Finalize is the method in Java which is used to perform clean up processing just before object is garbage collected.
+
+2) Finalize() method is used with the objects.
+ 
+3) It performs the cleaning activities with respect to the object before its destruction
+ 
+4) It is executed just before the object is destroyed.
+...........................................................................................................................

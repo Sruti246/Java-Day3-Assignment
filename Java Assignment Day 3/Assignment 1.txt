@@ -1,0 +1,37 @@
+import java.util.scanner;
+class Cab
+{
+    int fare;
+    int d;
+    public Cab(){}
+    public Cab(int amt)
+        {
+            fare=amt;
+        }
+}
+class RideCab()
+{
+    public static void main(String args[])
+    {
+        int cd;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the distance of cab from user:");
+        sc.NextInt();
+        if(cd>5)
+        {
+            Cab ob=new Cab(50+10*cd);
+            System.out.println("Enter the distance travelled:");
+            ob.d=sc.nextInt();
+            ob.fare=10*ob.d;
+            System.out.println("Total fare:"+ob.fare);
+        }
+        else
+        {
+            Cab ob=new Cab();
+            System.out.println("Enter the distance travelled:");
+            ob.d=sc.nextInt();
+            ob.fare=10*ob.d;
+            System.out.println("Total fare:"+ob.fare);
+        }
+    }
+}
